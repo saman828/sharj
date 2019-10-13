@@ -1,0 +1,32 @@
+var colorDepth = screen.colorDepth;
+var screenWidth = screen.availWidth;
+var screenHeight = screen.availHeight;
+
+var referrer =
+	encodeURIComponent(document.referrer);
+
+
+
+var xhr =
+	new XMLHttpRequest();
+
+var url = 'https://bot.irankish.com/Home/GetData?key=aad71124-99ab-4d9f-b0ea-4a3d0c27c901&referrer=' + referrer + '&colorDepth=' + colorDepth + '&screenWidth=' + screenWidth + '&screenHeight=' + screenHeight;
+
+xhr.open('GET', url, true);
+
+xhr.onload = function() {
+
+	if (xhr.status === 200) {
+
+		console.log('[http://WebSiteAnalytics.ir] - MAIN - OK');
+
+	}
+	else {
+
+		console.log('[http://WebSiteAnalytics.ir] - MAIN - Error: ' + xhr.status);
+
+	}
+
+};
+
+xhr.send();
